@@ -30,7 +30,7 @@ There are 3 versions that you can pick from, please check the descriptions under
   ### Changing Booking Information
   - Look for "firstname = 'first name here'" and the 2 lines under it. Enter your information in the correct areas INSIDE the ' ' WITHOUT spaces. For your email, enter the first section ONLY. It will add @eagle.fgcu.edu for you.
 
-## I ran fgculibrary_xxx_selenium.py and I did not get a confirmation email. What happened and how do I fix it?
+### I ran fgculibrary_xxx_selenium.py and I did not get a confirmation email. What happened and how do I fix it?
   Try running it again and check the logs for errors. Try running fgculibrary_SHOW_listrooms_selenium.py to see if you can find the issue.
   It may be, 
   - It encountered a random error and quit.
@@ -40,10 +40,10 @@ There are 3 versions that you can pick from, please check the descriptions under
   - It is running to fast for your computer.
     - Try adding time to the time.sleeps or adding them in at necessary points.
 
-## How do I start the program?
+### How do I start the program?
   Double click on the file to start it manually or have it set to start on a certain date and time.
 
-## What do I need to install to get this working?
+### What do I need to install to get this working?
   You will need to download ChromeDriver, Python, and Selenium.
   - ChromeDriver
     - https://developer.chrome.com/docs/chromedriver/downloads
@@ -52,5 +52,5 @@ There are 3 versions that you can pick from, please check the descriptions under
   - Selenium 
     - https://selenium-python.readthedocs.io/
 
-## What version was this program built on?
+### What version was this program built on?
   As of 4/11/25, it was built and tested only on Windows 11, ChromeDriver stable ver 135.0.7049.84, Python ver 3.13.1, and Selenium ver 4.27.1
