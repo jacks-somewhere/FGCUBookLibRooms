@@ -33,7 +33,7 @@ There are 3 versions that you can pick from, please check the descriptions under
 ## I ran fgculibrary_xxx_selenium.py and I did not get a confirmation email. What happened and how do I fix it?
   Try running it again and check the logs for errors. Try running fgculibrary_SHOW_listrooms_selenium.py to see if you can find the issue.
   It may be, 
-  - it encountered a random error and quit.
+  - It encountered a random error and quit.
     - Run it again and try rebooting. That fixes a lot of issues.
   - The URL or an element changed and that caused it to break.
     - Changing the URL or element to the new one. Hint, use inspect for elements.
