@@ -16,11 +16,13 @@ firstname = 'first name here'
 lastname = 'last name here'
 email = 'email here' #do NOT include @eagle.fgcu.edu or @fgcu.edu
 
-startTime = 9
+day = 3 #number of days clicked through
+
+startTime = 9 #starting hour
 startMin = '00' #'00' or '30'
 startAP = 'pm' #lower case am or pm
 
-endTime = 22 #military time
+endTime = 10 #ending hour 
 endMin = '00' #'00' or '30'
 
 noBookRoomList = [113,116] #list of all rooms that should not be booked
@@ -33,7 +35,7 @@ print(driver.title)
 
 time.sleep(2)
 
-for i in range(3): #number of days clicked though
+for i in range(day): 
     next_element = driver.find_element(By.CSS_SELECTOR, '[class*="chevron-right"]')
     next_element.click()
 
@@ -54,7 +56,7 @@ while True:
         print('Start Time Button clicked')
 
         #selects end time
-        drop_element = driver.find_element(By.CSS_SELECTOR, f'[value*="{endTime}:{endMin}:00"]')
+        drop_element = driver.find_element(By.CSS_SELECTOR, f'[title*="{endTime}:{endMin}"]')
         drop_element.click()
         print('Drop Down Button clicked')
 
