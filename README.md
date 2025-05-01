@@ -22,7 +22,7 @@ There are 3 versions that you can pick from, please check the descriptions under
 
 ## How do I changed the booking date, do not book rooms, book rooms, or my information?
   ### Booking Date
-  - Look for the line "for i in range(3):". the number 3 will be how many days ahead the program moves. Changing this number to 7 will have the program check the rooms 7 days from the current date. For example, if the program was started on the 11th with "for i in range(7):". It will try and book a room on the 18th.
+  - Look for the line "day = 3" near the top of the page. the number 3 will be how many days ahead the program moves. Changing this number to 7 will have the program check the rooms 7 days from the current date. For example, if the program was started on the 11th with "day = 7". It will try and book a room on the 18th.
   ### Do Not Book Rooms
   - Look for the line "noBookRoomList = [113,116]" near the top of the program. To add a room number, add the number and a comma to the list. For example, [110,126,113,116] (110 and 126 where added). To remove a room, remove the number and it's comma. For example, [116] (113 was removed), [] (to have no excluded rooms), or [110,116] (113 was removed and 110 was added).
   ### Book Rooms
