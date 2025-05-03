@@ -53,4 +53,4 @@ There are 3 versions that you can pick from, please check the descriptions under
     - https://selenium-python.readthedocs.io/
 
 ### What version was this program built on?
-  As of 4/11/25, it was built and tested only on Windows 11, ChromeDriver stable ver 135.0.7049.84, Python ver 3.13.1, and Selenium ver 4.27.1
+  As of 5/3/25, it was built and tested only on Windows 11, ChromeDriver stable ver 135.0.7049.84, Python ver 3.13.1, and Selenium ver 4.27.1
