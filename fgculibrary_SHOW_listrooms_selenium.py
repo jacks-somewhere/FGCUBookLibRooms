@@ -16,7 +16,7 @@ startTime = 9 #Hour that you want to start the booking at
 startMin = '00' #'00' or '30'
 startAP = 'pm' #lower case am or pm
 
-endTime = 10 #Hour that you want to start the booking at
+endTime = 10 #MUST be in military time
 endMin = '00' #'00' or '30'
 
 
