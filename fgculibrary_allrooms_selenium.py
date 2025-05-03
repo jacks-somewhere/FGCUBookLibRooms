@@ -56,7 +56,7 @@ while True:
         print('Start Time Button clicked')
 
         #selects end time
-        drop_element = driver.find_element(By.CSS_SELECTOR, f'[title*="{endTime}:{endMin}"]')
+        drop_element = driver.find_element(By.CSS_SELECTOR, f'[value*="{endTime}:{endMin}:00"]')
         drop_element.click()
         print('Drop Down Button clicked')
 
