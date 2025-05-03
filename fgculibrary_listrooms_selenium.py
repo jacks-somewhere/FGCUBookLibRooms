@@ -22,7 +22,7 @@ startTime = 9 #start hour
 startMin = '00' #'00' or '30'
 startAP = 'pm' #lower case am or pm
 
-endTime = 10 #end hour
+endTime = 10 #MUST be in military time
 endMin = '00' #'00' or '30'
 
 noBookRoomList = [113,116] #list of all rooms that should not be booked
@@ -56,7 +56,7 @@ while True:
             print('Start Time Button clicked')
 
             #selects end time
-            drop_element = driver.find_element(By.CSS_SELECTOR, f'[title*="{endTime}:{endMin}"]')
+            drop_element = driver.find_element(By.CSS_SELECTOR, f'[value*="{endTime}:{endMin}:00"]')
             drop_element.click()
             print('Drop Down Button clicked')
 
