@@ -22,7 +22,7 @@ startTime = 9 #starting hour
 startMin = '00' #'00' or '30'
 startAP = 'pm' #lower case am or pm
 
-endTime = 10 #ending hour 
+endTime = 10 #MUST be in military time 
 endMin = '00' #'00' or '30'
 
 noBookRoomList = [113,116] #list of all rooms that should not be booked
